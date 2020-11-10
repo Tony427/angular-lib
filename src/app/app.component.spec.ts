@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
+// 看起來像是寫test的地方
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
