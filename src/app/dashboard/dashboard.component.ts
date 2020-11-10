@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  loadState: 'loading';
+  loadState = 'loading';
   constructor() { }
 
   ngOnInit(): void {
+    // this.loadState = 'loading';
+  }
+
+  onClickMe(){
+    this.loadState = 'finished';
   }
 
 }
