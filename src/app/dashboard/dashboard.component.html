@@ -1,3 +1,5 @@
 <p>dashboard works!</p>
 <p>{{ loadState }}</p>
 <button (click)="onClickMe()">Click me!</button>
+<p [textContent]="loadState"></p>
+<div><input type="text" [(ngModel)]="loadState"></div>
