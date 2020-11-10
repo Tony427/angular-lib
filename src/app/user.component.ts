@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 })
 
 export class UserComponent {
-    name: 'Tony';
+    name = 'Tony';
 
     onUserInput(event) {
         this.name = event.target.value;
